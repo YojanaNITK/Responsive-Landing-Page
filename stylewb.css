@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+   padding-top: 0;
+   padding-bottom: 0;
+}
+.naming{
+    flex-grow: 1;
+}
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+h2{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    
+}
+.mainsection{
+    display: flex;
+    padding: 50px;
+}
+.box{
+    width: 33.33%;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 10px;
+    overflow: hidden;
+}
+.boximg{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.boxcontent{
+    margin: 5px;
+}
+h4{
+    color: blueviolet;
+    font-size: 20px;
+    text-align: center;
+}
+p{
+    opacity: 0.7;
+}
+
+/* Mobile view */
+@media screen and (max-width: 415px) {
+    .mainsection{
+        display: block;
+        padding: 10px;
+    }
+    .box{
+        width: auto;
+        
+    }
+}
+    
